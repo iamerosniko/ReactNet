@@ -1,0 +1,30 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="ReactNet.SiteMaster" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%: Page.Title %> - My ASP.NET Application</title>
+    <link href="styles/bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <link href="styles/bootstrap/bootstrap-theme.min.css" rel="stylesheet" />
+    <!--bootstrap js-->
+    <script src="Scripts/jquery/jquery-1.12.4.min.js"></script>
+    <script src="Scripts/bootstrap/bootstrap.min.js"></script>
+    <!--react js-->
+    <script src="Scripts/react/react.min.js"></script>
+    <script src="Scripts/react-dom/react-dom.min.js"></script>
+    <script src="Scripts/babel/browser.min.js"></script>
+    <script type="text/babel" src ="Scripts/main.js"></script>
+</head>
+<body>
+    <form runat="server">
+        
+        <div class="container body-content">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
