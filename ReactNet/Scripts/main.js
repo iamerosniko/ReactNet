@@ -1,3 +1,5 @@
+
+
 var num = 1;
 var data = [
     {"Name": "Operations Scorecard", "Desc": "First"},
@@ -36,10 +38,9 @@ var Main = React.createClass({
                         {this.props.projects.map(function(c){
                             return ( 
                                 <tr> 
-                                        <td>{c.Name}</td>
+                                    <td>{c.Name}</td>
                                     <td>{c.Desc}</td>
-                                    <td> <a href="#" >
-                                    <span className="glyphicon glyphicon-remove delete-obj"></span></a></td>
+                                    <td> <a href="#" role="button">asdd</a></td>
                                 </tr>
                                 )
                         })}

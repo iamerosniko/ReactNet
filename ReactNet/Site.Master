@@ -17,14 +17,16 @@
     <script src="Scripts/react-dom/react-dom.min.js"></script>
     <script src="Scripts/babel/browser.min.js"></script>
     <script type="text/babel" src ="Scripts/main.js"></script>
+    <script type="text/babel" src ="Scripts/sample.js"></script>
 </head>
 <body>
     <form runat="server">
-        
         <div class="container body-content">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
         </div>
+
     </form>
+     
 </body>
 </html>
